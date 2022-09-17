@@ -1,0 +1,19 @@
+
+import math
+#  Dados 3 numeros A-B-C verificar si pueden formar los lados de un triangulo 
+print("------------------------------")
+print("-------Lados_triangulo :------")
+print("------------------------------")
+
+# input
+A = int(input("digite el primer lado del triangulo: "))
+B = int(input("digite el seguno lado del triangulo: "))
+C = int(input("digite el tercer lado del triangulo: "))
+
+# proccesing
+if( A + B) > C and (A + C) > B and (B + C )> A:
+    print ("\n los lados corresponden a un triangulo. ")
+else: 
+    print ("\n los lados no corresponden a un triangulo. ")
+
+# FIN
